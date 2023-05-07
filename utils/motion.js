@@ -14,7 +14,7 @@ export const navVariants = {
     transition: {
       type: 'spring',
       stiffness: 80,
-      delay: 1,
+      delay: 0.5,
     },
   },
 };
@@ -83,6 +83,7 @@ export const textVariant2 = {
     transition: {
       type: 'tween',
       ease: 'easeIn',
+      duration: 0.5,
     },
   },
 };
@@ -121,6 +122,22 @@ export const planetVariants = (direction) => ({
     },
   },
 });
+
+// export const rotateOnHover = (direction) => ({
+//   hidden: {
+//     rotate: 120,
+//     repeat: Infinity,
+//     repeatType: 'reverse'
+//   },
+//   show: {
+//     rotate: 180,
+//     repeat: Infinity,
+//     transition: {
+//       type: 'tween',
+//       duration: 1.5
+//     }
+//   }
+// })
 
 export const zoomIn = (delay, duration) => ({
   hidden: {

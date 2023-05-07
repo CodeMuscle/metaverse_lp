@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css__":{"/Users/codemuscle/Desktop/Metaverse LP - Next.js/app/page":["/Users/codemuscle/Desktop/Metaverse LP - Next.js/styles/globals.css"]},"/Users/codemuscle/Desktop/Metaverse LP - Next.js/app/layout.js":["/Users/codemuscle/Desktop/Metaverse LP - Next.js/styles/globals.css"]}
